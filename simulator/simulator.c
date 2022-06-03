@@ -119,6 +119,7 @@ int main(int argc, char *argv[]){
         state.pc++;
 
     }
+    return(0);
 }
 
     void printState(stateType *statePtr){ 
