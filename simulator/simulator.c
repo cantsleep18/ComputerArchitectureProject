@@ -179,5 +179,5 @@ int main(int argc, char *argv[]){
         printf("total of %d instructions executed\n", executeNum);
         printf("final state of machine:");
         printState(state);
-        exit(1);
+        exit(0);
     }
