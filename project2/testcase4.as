@@ -1,6 +1,6 @@
     lw  0   1   val1    $1 = val1(1) "Branch Hazard by eliminating 
     lw  0   2   val2    $2 = val2(2) testcase2's 'noop' after beq" 
-    lw  0   3   val3    $4 = val3(3) 
+    lw  0   3   val3    $3 = val3(3) 
     noop 
     noop 
 loop beq 1   2   end    Branch Hazard occurs since result of branch is decieded after EX stage 
