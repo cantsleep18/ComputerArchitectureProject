@@ -9,5 +9,5 @@
     noop 
 	add 4   3    4	    $4 = reverse of $1 (2's complement)
     halt 
-five	.fill 5
-one	.fill 1
+five	.fill 5 
+one	.fill 1 
